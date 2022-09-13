@@ -1,7 +1,7 @@
 %This function saves the hits Vs miss data as follows: two separate
 %variables for attended powerValues in hits and miss condition of target period. in each
-%variable it will be stored as {freqrange}{subject}{electrode
-%Group} (elec,trials)
+%variable it will be stored as {electrode
+%Group}{freqrange}{subject}{attend location}(elec,trials)
 
 function getData_HitsVsMisses_ConsolidatedResults(subjectIdx,bootstrapTimes,removeBadElectrodeData)
 
